@@ -1,0 +1,25 @@
+{
+  "name": "flo-web",
+  "version": "1.0.0",
+  "description": "docker exec -ti 0d329589700c bash",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florentdrousset/flo-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florentdrousset/flo-web/issues"
+  },
+  "homepage": "https://github.com/florentdrousset/flo-web#readme"
+}

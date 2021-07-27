@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .article-title {
+        @apply 2xl:font-mono m-5 text-xl font-bold text-gray-600;
+    }
+}
