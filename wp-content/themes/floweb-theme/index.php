@@ -83,6 +83,8 @@
         </div>
     </div>
 </section>
+<?php //wp_footer(); ?>
+
 <script src="src/main-script.js"></script>
 </body>
 </html>
