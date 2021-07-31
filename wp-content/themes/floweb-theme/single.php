@@ -15,7 +15,7 @@
                     <a href="#" class="text-sm text-white border-2 border-blue-400 p-2 bg-blue-300">productivity</a>
                 </div>
             </div>
-            <img src="assets/icons/plane_window.png" class="w-56 h-56">
+            <img src="<?= BASE_FOLDER ?>/assets/icons/plane_window.png" class="w-56 h-56">
         </div>
     </article>
 
@@ -47,5 +47,6 @@
     </div>
 </section>
 
+<?php get_footer(); ?>
 </body>
 </html>
