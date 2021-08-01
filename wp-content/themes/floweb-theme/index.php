@@ -5,10 +5,10 @@
     <article class="2xl:font-mono text-3xl bg-gray-200 dark:bg-gray-700 bg-opacity-60 dark:bg-opacity-100 border-b-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row m-auto w-1/2">
             <div>
-                <h1 class="3xl:font-mono text-5xl font-bold mb-5">Je suis Florent Drousset.</h1>
-                <p class="font-sans text-base w-3/5">Je suis un développeur web freelance spécialisé en PHP et WordPress.
+                <h1 class="montserrat text-5xl font-bold mb-5">Je suis Florent Drousset.</h1>
+                <p class="roboto text-base w-3/5">Je suis un développeur web freelance spécialisé en PHP et WordPress.
                     Vous trouverez ici des articles sur le développement web en général, ainsi que des informations si vous
-                    avez besoin de mes services pour créer un site web pour vous ou votre entreprise.</p>
+                    avez besoin de <a href="index.php/services">mes services</a> pour créer un site web pour vous ou votre entreprise.</p>
                 <div class="social">
                     <a href="https://github.com/florentdrousset" target="_blank" class="inline"><img src="<?= BASE_FOLDER ?>/assets/icons/github.png" class="w-1/12 mt-3 inline-block"></a>
                     <a href="https://twitter.com/florentdrousset" target="_blank" class="inline"><img src="<?= BASE_FOLDER ?>/assets/icons/twitter.png" class="w-1/12 mt-3 inline-block"></a>
@@ -20,7 +20,7 @@
 
     <!-- LAST ARTICLES -->
     <div class="articles m-auto mt-8 w-1/2">
-        <h2 class="2xl:font-mono text-3xl font-bold text-black dark:text-yellow-200">Derniers articles</h2>
+        <h2 class="montserrat text-3xl font-bold text-black dark:text-yellow-200">Derniers articles</h2>
         <hr class="border-2 border-black dark:border-gray-700 border-solid mb-5">
         <div class="table">
 
@@ -85,6 +85,6 @@
 </section>
 <?php get_footer(); ?>
 
-<script src="src/main-script.js"></script>
+<!--<script src="--><?//= BASE_FOLDER ?><!--/src/main-script.js"></script>-->
 </body>
 </html>
