@@ -1,5 +1,5 @@
 <?php
-define(BASE_FOLDER, "/wp-content/themes/floweb-theme/");
+const BASE_FOLDER = "/wp-content/themes/floweb-theme/";
 
 function floweb_files()
 {
