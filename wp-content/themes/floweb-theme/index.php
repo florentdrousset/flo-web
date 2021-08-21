@@ -19,10 +19,10 @@
     </article>
 
     <!-- LAST ARTICLES -->
-    <div class="articles m-auto mt-8 w-1/2">
+    <div class="articles m-auto mt-20 w-1/2">
         <h2 class="montserrat text-3xl font-bold text-black dark:text-yellow-200">Derniers articles</h2>
         <hr class="border-2 border-black dark:border-gray-700 border-solid mb-5">
-        <div class="table">
+        <div class="table w-full">
 
             <?php
             while(have_posts()) {
