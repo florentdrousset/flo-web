@@ -24,12 +24,12 @@
         <hr class="border-2 border-black dark:border-gray-700 border-solid mb-5">
         <div class="table">
 
-
-            <a href="<?php the_permalink();?>"<div class="flex row hover:bg-gray-100">
             <?php
             while(have_posts()) {
-                the_post();
-                ?>
+            the_post();
+            ?>
+            <a href="<?php the_permalink();?>"<div class="flex row hover:bg-gray-100">
+
                 <div class="flex-auto self-center">
                     <p class="text-sm text-gray-600"><?php the_date();?></p>
                 </div>
