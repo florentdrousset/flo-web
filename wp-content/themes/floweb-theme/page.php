@@ -5,7 +5,6 @@
             <div>
                 <h1 class="3xl:font-mono text-5xl font-bold mb-5"><?php the_title() ?></h1>
             </div>
-<!--            <img src="--><?//= BASE_FOLDER ?><!--/assets/icons/plane_window.png" class="w-56 h-56">-->
         </div>
     </article>
 
@@ -17,7 +16,6 @@
             <p class="mb-3">
                 <?php echo the_content(); ?>
             </p>
-
         </article>
 
     </div>

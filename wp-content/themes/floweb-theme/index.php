@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 
 
-<section class="bg-white dark:text-white dark:bg-gray-800 m-auto">
+<section class="bg-white dark:text-white dark:bg-gray-800 m-auto main-section">
     <article class="2xl:font-mono text-3xl bg-gray-200 dark:bg-gray-700 bg-opacity-60 dark:bg-opacity-100 border-b-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row m-auto w-1/2">
             <div>
                 <h1 class="montserrat text-gray-700 dark:text-white dark:text-yellow-200 text-5xl font-bold mb-5">Bienvenue !</h1>
-                <p class="text-base w-3/5">Je suis un développeur web freelance spécialisé en Shopify et WordPress.
+                <p class="text-base w-3/5">Je suis un développeur web freelance spécialisé dans Shopify.
                     Vous trouverez ici des articles sur le développement web en général, ainsi que des informations si vous
-                    avez besoin de <a href="index.php/services">mes services</a> pour créer un site web pour vous ou votre entreprise.</p>
+                    avez besoin de <a href="index.php/services">mes services</a> pour créer un site web e-commerce pour vous ou votre entreprise.</p>
                 <div class="social">
                     <a href="https://github.com/florentdrousset" target="_blank" class="inline"><img src="<?= BASE_FOLDER ?>/assets/icons/github.png" class="w-1/12 mt-3 inline-block"></a>
                     <a href="https://twitter.com/florentdrousset" target="_blank" class="inline"><img src="<?= BASE_FOLDER ?>/assets/icons/twitter.png" class="w-1/12 mt-3 inline-block"></a>
@@ -45,46 +45,9 @@
 
             </div>
         </a>
-            <!--
-           <div class="flex row hover:bg-gray-100">
-               <div class="flex-auto self-center">
-                   <p class="text-sm text-gray-600">2 Juil. 2021</p>
-               </div>
-               <div class="w-8/12">
-                   <h3 class="2xl:font-mono m-5 text-xl font-bold text-gray-600 self-center content-center p-4">Développer sous Windows ?</h3>
-               </div>
-               <div class="w-2/12 self-center">
-                   <img src="assets/icons/plane_window.png" class="w-3/5">
-               </div>
-           </div>
-           <div class="flex row hover:bg-gray-100">
-               <div class="flex-auto w-1/12 self-center">
-                   <p class="text-sm text-gray-600">2 Juil. 2021</p>
-               </div>
-               <div class="w-8/12">
-                   <h3 class="2xl:font-mono m-5 text-xl font-bold text-gray-600 self-center content-center p-4">WordPress + Docker</h3>
-               </div>
-               <div class="w-2/12 self-center">
-                   <img src="assets/icons/cargo-ship.png" class="w-3/5">
-               </div>
-           </div>
-           <div class="flex row hover:bg-gray-100">
-               <div class="flex-auto self-center">
-                   <p class="text-sm text-gray-600">2 Juil. 2021</p>
-               </div>
-               <div class="w-8/12">
-                   <h3 class="2xl:font-mono m-5 text-xl font-bold text-gray-600 self-center content-center p-4">Les bases de WordPress</h3>
-               </div>
-               <div class="w-2/12 self-center">
-                   <img src="assets/icons/foundation.png" class="w-3/5">
-               </div>
-           </div>
-           -->
         </div>
     </div>
 </section>
 <?php get_footer(); ?>
-
-<!--<script src="--><?//= BASE_FOLDER ?><!--/src/main-script.js"></script>-->
 </body>
 </html>

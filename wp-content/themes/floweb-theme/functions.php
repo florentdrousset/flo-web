@@ -3,6 +3,7 @@ const BASE_FOLDER = "/wp-content/themes/floweb-theme/";
 
 function floweb_files()
 {
+    wp_enqueue_script('jquery');
     wp_enqueue_style('prism-style', get_template_directory_uri() . '/prism.css');
     wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
     wp_enqueue_style('tailwind', get_template_directory_uri() . '/tailwind.css');

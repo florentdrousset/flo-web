@@ -14,7 +14,7 @@ $result = new WP_Query( $args );
 
 
 get_header(); ?>
-<section class="bg-white dark:text-white dark:bg-gray-800 m-auto">
+<section class="bg-white dark:text-white dark:bg-gray-800 m-auto blog-section">
     <article class="2xl:font-mono text-3xl bg-gray-200 dark:bg-gray-700 bg-opacity-60 dark:bg-opacity-100 border-b-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row justify-between m-auto w-1/2">
             <div>
