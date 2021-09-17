@@ -3,10 +3,10 @@
 
 <section class="dark:text-white main-bg-color m-auto main-section">
     <article class="2xl:font-mono text-3xl main-shade-color bg-opacity-60 dark:bg-opacity-100 border-b-4 border-t-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
-        <div class="flex flex-row m-auto w-1/2">
+        <div class="flex flex-row m-auto w-full lg:w-1/2">
             <div>
                 <h1 class="montserrat text-5xl font-bold mb-5">Bienvenue !</h1>
-                <p class="text-base text-sec-color w-3/5">Je suis un développeur web freelance spécialisé dans <a href="https://www.shopify.com/" class="sec-highlight-color" target="_blank">Shopify</a>.
+                <p class="text-base text-sec-color w-full lg:w-3/5">Je suis un développeur web freelance spécialisé dans <a href="https://www.shopify.com/" class="sec-highlight-color" target="_blank">Shopify</a>.
                     Vous trouverez ici des articles sur le développement web en général, ainsi que des informations si vous
                     avez besoin de <a href="index.php/services">mes services</a> pour créer un site web e-commerce pour vous ou votre entreprise.</p>
                 <div class="social">
@@ -14,12 +14,12 @@
                     <a href="https://twitter.com/florentdrousset" target="_blank" class="inline"><img src="<?= BASE_FOLDER ?>/assets/icons/twitter.png" class="w-1/12 mt-3 inline-block"></a>
                 </div>
             </div>
-            <img src="<?= BASE_FOLDER ?>/assets/img/flo.jpg" class="border-4 border-black border-solid w-56 h-56 ml-3">
+            <img src="<?= BASE_FOLDER ?>/assets/img/flo.jpg" class="border-4 border-black border-solid w-56 h-56 ml-3 hidden lg:block">
         </div>
     </article>
 
     <!-- LAST ARTICLES -->
-    <div class="articles m-auto mt-20 w-1/2">
+    <div class="articles m-auto mt-20 w-11/12 lg:w-1/2">
         <h2 class="montserrat text-3xl font-bold">Derniers articles</h2>
         <hr class="mb-5">
         <div class="table w-full">
