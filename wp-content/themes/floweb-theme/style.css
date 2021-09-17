@@ -1,14 +1,106 @@
 /*
 Theme Name: FloWeb Theme
 Author: Florent Drousset
-Version: 1.0
+Version: 2.0
  */
+
+:root {
+    --main-bg-color-dark: #242424;
+    --main-shade-color-dark: #423F3E;
+    --hr-color-dark: #f1f4f8;
+    --highlight-color-dark: #33d65f;
+    --sec-highlight-color-dark: #fde68a;
+    --main-title-color-dark: #fde68a;
+    --hover-color-dark: #fde68a;
+    --text-sec-color-dark: #cccccc;
+    --main-bg-color-light: #ffffff;
+    --main-shade-color-light: #f1f4f8;
+    --hr-color-light: #f1f4f8;
+    --highlight-color-light: #33d65f;
+    --sec-highlight-color-light: #343a40;
+    --main-title-color-light: black;
+    --hover-color-light: #aaaaaa;
+    --text-sec-color-light: #495057;
+}
+
+.my-dark-theme {
+    --main-bg-color: var(--main-bg-color-dark);
+    --main-shade-color: var(--main-shade-color-dark);
+    --hr-color: var(--hr-color-dark);
+    --highlight-color: var(--highlight-color-dark);
+    --sec-highlight-color: var(--sec-highlight-color-dark);
+    --main-title-color: var(--main-title-color-dark);
+    --hover-color: var(--hover-color-dark);
+    --text-sec-color: var(--text-sec-color-dark);
+}
+
+.my-light-theme {
+    --main-bg-color: var(--main-bg-color-light);
+    --main-shade-color: var(--main-shade-color-light);
+    --hr-color: var(--hr-color-light);
+    --highlight-color: var(--highlight-color-light);
+    --sec-highlight-color: var(--sec-highlight-color-light);
+    --main-title-color: var(--main-title-color-light);
+    --hover-color: var(--hover-color-light);
+    --text-sec-color: var(--text-sec-color-light);
+}
+
+.main-bg-color {
+    background-color: var(--main-bg-color);
+}
+
+.main-shade-color {
+    background-color: var(--main-shade-color);
+}
+
+.text-sec-color {
+    color: var(--text-sec-color);
+}
+
+.highlight-color {
+    color: var(--highlight-color);
+}
+
+h1 {
+    color: var(--main-title-color);
+}
+
+h2 {
+    color: var(--sec-highlight-color);
+}
+
+.sec-highlight-color {
+    color: var(--sec-highlight-color);
+}
+
+.article-list:hover {
+    background-color: var(--main-shade-color);
+}
+
+hr {
+    border: var(--main-shade-color) solid 0.3em;
+}
+
+.header-nav a>li:hover {
+    background-color: var(--hover-color);
+}
+
+/*.header-nav p a:hover {
+    border-bottom: var(--highlight-color) solid 0.3em;
+}*/
 
 @font-face {
     font-family: 'Menlo Regular';
     font-style: normal;
     font-weight: normal;
     src: local('Menlo Regular'), url('assets/fonts/Menlo-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pragmatica Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pragmatica Medium'), url('assets/fonts/PragmaticaMedium.woff') format('woff');
 }
 
 body {
@@ -76,4 +168,10 @@ footer {
 }
 footer > nav > div {
     display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+    body > section > article > div {
+        width: 100%;
+    }
 }

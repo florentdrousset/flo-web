@@ -1,11 +1,11 @@
 <?php get_header() ?>
 
-<section class="bg-white dark:text-white dark:bg-gray-800 m-auto">
-    <article class="2xl:font-mono text-3xl bg-gray-200 dark:bg-gray-700 bg-opacity-60 dark:bg-opacity-100 border-b-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
+<section class="main-bg-color m-auto">
+    <article class="2xl:font-mono text-3xl main-shade-color border-b-4 border-t-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row justify-between m-auto w-1/2">
             <div>
-                <h1 class="3xl:font-mono text-gray-700 dark:text-yellow-200 text-5xl font-bold mb-5"><?php the_title() ?></h1>
-                <p class="font-sans text-base text-gray-700 w-3/5">par <b>Florent Drousset</b>, le <?= sky_date_french('l d F Y', get_post_time('U', true), 1); ?>.</p>
+                <h1 class="3xl:font-mono text-5xl font-bold mb-5"><?php the_title() ?></h1>
+                <p class="font-sans text-base text-sec-color w-3/5">par <b>Florent Drousset</b>, le <?= sky_date_french('l d F Y', get_post_time('U', true), 1); ?>.</p>
                 <div id="tags" class="mt-2">
                     <?php
                     $tags = get_tags();
@@ -20,13 +20,13 @@
     </article>
 
     <!-- LAST ARTICLES -->
-    <div class="articles m-auto mt-8 w-1/2 text-gray-700 dark:text-white">
-        <article>
+    <div class="articles m-auto mt-8 w-1/2">
+        <article class="text-sec-color">
                 <?php echo the_content(); ?>
         </article>
         <hr class="border-2 border-gray-700 dark:border-gray-700 border-solid mb-3 mt-14">
         <section>
-            <h2 class="2xl:font-mono text-3xl font-bold text-gray-700 dark:text-yellow-200 mt-12 mb-2">Commentaires</h2>
+            <h2 class="2xl:font-mono text-3xl font-bold mt-12 mb-2">Commentaires</h2>
             <script src="https://utteranc.es/client.js"
                     repo="florentdrousset/comment-section"
                     issue-term="pathname"

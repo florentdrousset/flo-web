@@ -1,7 +1,7 @@
 <?php wp_footer();
 ?>
 <br/>
-<footer class="bg-gray-900">
+<footer class=" ">
     <nav class="flex justify-between text-gray-400 m-auto mt-2 mb-2">
         <div class="w-1/5 flex justify-between">
             <a href="" class="ml-3" id="back-to-top">↑ Revenir en haut</a>

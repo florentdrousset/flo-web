@@ -21,12 +21,16 @@ function applyTheme() {
     const html = document.documentElement
     let currentMode = localStorage.getItem(THEME)
     if (currentMode === DARK_MODE) {
+        document.body.classList.add('my-dark-theme');
+        document.body.classList.remove('my-light-theme');
         html.classList.add(DARK_MODE)
         document.getElementById('darkmode-icon').innerHTML =
             '<img src="/wp-content/themes/floweb-theme/assets/icons/sun.png" class="w-6 h-6 m-auto align-bottom">'
     }
     else {
         html.classList.remove(DARK_MODE);
+        document.body.classList.add('my-light-theme');
+        document.body.classList.remove('my-dark-theme');
         document.getElementById('darkmode-icon').innerHTML =
             '<img src="/wp-content/themes/floweb-theme/assets/icons/moon.png" class="w-6 h-6 m-auto align-bottom">'
     }

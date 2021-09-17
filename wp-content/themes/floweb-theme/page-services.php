@@ -4,8 +4,8 @@ Template Name: services
 */
 
 get_header(); ?>
-<section class="bg-white dark:text-white dark:bg-gray-800 m-auto">
-    <article class="2xl:font-mono text-3xl bg-gray-200 dark:bg-gray-700 bg-opacity-60 dark:bg-opacity-100 border-b-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
+<section class="main-bg-color m-auto">
+    <article class="2xl:font-mono text-3xl main-shade-color border-b-4 border-t-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row justify-between m-auto w-1/2">
             <div>
                 <h1 class="montserrat text-5xl font-bold mb-5"><?php the_title() ?></h1>
@@ -17,8 +17,8 @@ get_header(); ?>
     <!-- LAST ARTICLES -->
     <div class="articles m-auto mt-8 w-1/2">
         <div>
-            <h2 class="montserrat text-3xl font-bold text-black dark:text-yellow-200">Présentation</h2>
-            <hr class="border-2 border-black dark:border-gray-700 border-solid mb-5">
+            <h2 class="montserrat text-3xl font-bold">Présentation</h2>
+            <hr class="mb-5">
             <div class="roboto mb-3">
                 <p class="mb-2">Je m'appelle Florent, et je suis un développeur web fullstack spécialisé dans <strong>Shopify</strong> et <strong>Wordpress/WooCommerce</strong>. Avant de me lancer en freelance, j'ai travaillé à plein temps en tant que développeur web back-end dans une ESN.
                 J'ai bien conscience du fait qu'un site est souvent modifié par plusieurs personnes sur de nombreuses années, et c'est pourquoi je suis particulièrement attentif au fait de produire du code <strong>compréhensible</strong> et facilement <strong>réutilisable</strong>.
@@ -36,9 +36,9 @@ get_header(); ?>
 
                 <p><a href="mailto:florent.drousset@gmail.com">Envoyez-moi un mail</a> afin de discuter de votre projet et pour établir un devis.</p>
 
-                <h2 class="text-3xl font-bold text-black dark:text-yellow-200 mt-4">Mes compétences</h2>
-                <hr class="border-2 border-black dark:border-gray-700 border-solid mb-5">
-                <div class="bg-gray-100 dark:bg-gray-700">
+                <h2 class="text-3xl font-bold mt-4">Mes compétences</h2>
+                <hr class="mb-5">
+                <div class="main-shade-color">
                     <article class="flex mt-5 p-12 justify-between">
                         <div class="mr-3 flex-1 skill">
                             <img src="<?=BASE_FOLDER?>/assets/icons/client.png" class="m-auto w-32"/>
