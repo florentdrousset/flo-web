@@ -32,7 +32,7 @@ get_header(); ?>
             <?php if ( $result-> have_posts() ) : ?>
                 <?php while ( $result->have_posts() ) : $result->the_post(); ?>
                     <a href="<?php the_permalink();?>">
-                        <div class="flex row text-sec-color">
+                        <div class="flex row text-sec-color article-list">
                             <div class="flex-auto self-center">
                                 <p class="text-sm pl-4 text-sec-color"><?php the_date();?></p>
                             </div>
