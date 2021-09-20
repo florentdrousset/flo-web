@@ -5,8 +5,8 @@
     <article class="2xl:font-mono text-3xl main-shade-color bg-opacity-60 dark:bg-opacity-100 border-b-4 border-t-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row m-auto w-full lg:w-1/2">
             <div>
-                <h1 class="montserrat text-5xl font-bold mb-5">Bienvenue !</h1>
-                <p class="text-base text-sec-color w-full lg:w-3/5">Je suis un développeur web freelance spécialisé dans <a href="https://www.shopify.com/" class="sec-highlight-color" target="_blank">Shopify</a>.
+                <h1 class="montserrat text-7xl lg:text-5xl font-bold mb-5">Bienvenue !</h1>
+                <p class="text-base text-sec-color text-3xl lg:text-base w-full lg:w-3/5">Je suis un développeur web freelance spécialisé dans <a href="https://www.shopify.com/" class="sec-highlight-color" target="_blank">Shopify</a>.
                     Vous trouverez ici des articles sur le développement web en général, ainsi que des informations si vous
                     avez besoin de <a href="index.php/services">mes services</a> pour créer un site web e-commerce pour vous ou votre entreprise.</p>
                 <div class="social">

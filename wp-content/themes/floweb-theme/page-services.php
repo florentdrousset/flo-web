@@ -5,7 +5,7 @@ Template Name: services
 
 get_header(); ?>
 <section class="main-bg-color m-auto">
-    <article class="2xl:font-mono text-3xl main-shade-color border-b-4 border-t-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
+    <article class="hidden lg:block 2xl:font-mono text-3xl main-shade-color border-b-4 border-t-4 border-gray-500 border-opacity-20 border-solid m-auto p-8">
         <div class="flex flex-row justify-between m-auto w-1/2">
             <div>
                 <h1 class="montserrat text-5xl font-bold mb-5"><?php the_title() ?></h1>
@@ -15,7 +15,7 @@ get_header(); ?>
     </article>
 
     <!-- LAST ARTICLES -->
-    <div class="articles m-auto mt-8 w-1/2">
+    <div class="articles m-auto mt-8 w-11/12 lg:w-1/2">
         <div>
             <h2 class="montserrat text-3xl font-bold">Présentation</h2>
             <hr class="mb-5">
